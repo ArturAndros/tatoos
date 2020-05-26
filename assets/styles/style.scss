@@ -1,0 +1,718 @@
+$maxWidthGeneral:1131px;
+$hoverColor:#FF0E0E;
+body{
+  font-family: 'Ralevay', sans-serif;
+  margin: 0;
+  background-color: #1D1C21;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+button{
+  outline: none;
+}
+header {
+  position: relative;
+  background-image: url("../images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:870px;
+  padding-top: 29px;
+  text-align: center;
+  .header-text{
+    font-family: 'Playfair Display', serif;
+    font-size:  18px;
+    margin: 0 auto 50px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+}
+nav {
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 10px;
+  max-width: $maxWidthGeneral;
+  width: 100%;
+  color: #F6F6F6;
+  font-size: 15px;
+  padding: 10px 2px;
+  border-bottom: 1px solid #89898B;
+  line-height: 18px;
+}
+nav a:hover{
+  color:$hoverColor;
+}
+.header-content{
+  max-width: $maxWidthGeneral;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: flex-start;
+}
+.header-icons{
+  display: flex;
+  flex-direction: column;
+  height: 67px;
+  justify-content: space-between;
+}
+.main-logo{
+  margin: -50px auto 10px;
+  width: 692px;
+  display: block;
+}
+.button{
+  width: 180px;
+  height: 48px;
+  display: table-cell;
+  vertical-align: middle;
+  border: 2px solid #D8D8D9;
+  color: #D8D8D9;
+  background: none;
+  margin: 10px auto;
+  font-weight: bold;
+  cursor: pointer;
+}
+  span{
+    line-height: 44px;
+    font-size: 16px;
+  }
+.burger-menu{
+  display: none;
+}
+/*BURGER*/
+#burger{
+  width: 40px;
+  height: 30px;
+  display: none;
+  position: absolute;
+  //right: 15px;
+  //top: 23px;
+  right: 50px;
+  top: 40px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  z-index: 3;
+}
+#burger span {
+  display: block;
+  position: absolute;
+  height: 6px;
+  width: 100%;
+  background: white;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+#burger span:nth-child(1) {
+  top: 0px;
+}
+#burger span:nth-child(2) {
+  top: 12px;
+}
+#burger span:nth-child(3) {
+  top: 24px;
+}
+#burger.open span:nth-child(1) {
+  position: absolute;
+  top: 18px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+#burger.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+#burger.open span:nth-child(3) {
+  position: absolute;
+  top: 18px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.burger-menu{
+  border: none;
+  flex-direction: column;
+  position: absolute;
+  top:0;
+  padding: 50px 20px;
+  background: #1D1C21;
+  width: 100%;
+  height: 670px;
+}
+//MAIN
+article{
+  max-width: $maxWidthGeneral;
+  margin: 0 auto;
+}
+h2 ,h3,h4{
+  font-family: 'Playfair Display SC', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 61px;
+  line-height: 81px;
+  margin: 0 0 24px;
+  color: #89898B;
+}
+h3{
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #F6F6F6;
+  margin: 0;
+}
+h4{
+  font-size: 14px;
+  line-height: 19px;
+}
+//Artists
+.artists-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.artist-card{
+  width: 261px;
+  margin: 0 0 15px;
+  h3{
+    display: block;
+    width: 120px;
+  }
+}
+.artist-card-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.read-more-btn {
+  p{
+    font-size: 15px;
+  }
+  border: none;
+  width: 85px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  outline: none;
+  font-weight: normal;
+  padding: 0;
+}
+//OUR PROS
+.awards{
+  position: relative;
+  background-image: url("../images/our-pros.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:408px;
+  text-align: center;
+  margin: 115px 0 80px;
+  h3,p{
+    color: #1D1C21;
+  }
+}
+.awards-content{
+  max-width:$maxWidthGeneral;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 161px;
+  flex-wrap: wrap;
+}
+.award-card{
+    width: 308px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  h3{
+    margin-bottom: 8px;
+  }
+  p{
+    margin: 0 0 4px;
+  }
+  .award-card-text{
+    width: 212px;
+    text-align: left;
+
+    .lean-more{
+      display: flex;
+      flex-direction: row;
+      cursor: pointer;
+      p{
+        color: #FF0E0E;
+        margin: 0;
+      }
+      img{
+        margin: 2px 0 0 7px;
+      }
+    }
+  }
+}
+//Featured work
+img.mfp-img {
+  width: 500px !important;
+}
+.title-and-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.kayla-work{
+  position: relative;
+  top: -30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+//ABOUT US
+.about-us{
+  background-image: url("../images/about-us-bg.png");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:408px;
+  text-align: center;
+  margin: 115px 0 80px;
+  h3,p{
+    color: #1D1C21;
+  }
+  .about-us-content{
+    margin: 0 auto;
+    max-width: $maxWidthGeneral;
+    padding: 60px 0;
+    p,h2{
+      display: block;
+      max-width: 455px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    img{
+      float: right;
+      position: relative;
+      top: -370px;
+    }
+  }
+}
+.about-us-img-mobile{
+  display: none;
+}
+//Instagram collective work
+.instagram-work{
+  h2{
+    max-width: 955px;
+    margin: 0 auto 12px;
+    white-space: nowrap;
+  }
+  .read-more-btn{
+    width: 95px;
+    margin: 30px auto;
+  }
+}
+.grid{
+    max-width: 1160px;
+    margin: 0 auto;
+
+  .grid-item{
+    float: left;
+    width: 222px;
+    height: 222px;
+    border:5px solid #1D1C21;
+  }
+  .grid-item-big{
+    width: 444px;
+    height:454px;
+    border:5px solid #1D1C21;
+    img{
+      width: 454px;
+      height:454px;
+    }
+  }
+  .grid-item-small{
+    width: 202px;
+    border: 5px solid #1D1C21;
+    border-left: 14px solid #1D1C21;
+    border-right: 14px solid #1D1C21;
+  }
+}
+//CONTACT
+.contact-form{
+  margin-top:40px;
+  text-align: center;
+}
+form {
+  //text-align: left;
+  max-width: 501px;
+  margin: 0 auto;
+  input, select,textarea {
+      width: 100%;
+      color: #F6F6F6;
+      outline: none;
+      padding: 6px 20px 9px;
+      display: inline-block;
+      border: none;
+      border-bottom: 1px solid #89898B;
+      box-sizing: border-box;
+      background: none;
+    }
+  .read-more-btn{
+    width: 103px;
+    p{
+      margin: 0;
+    }
+  }
+  .upload-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 0 40px;
+  }
+  p , input::placeholder , select,textarea::placeholder{
+    margin: 27px 0 0;
+    text-align: left;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F6F6F6;
+    font-style: normal;
+    font-weight: normal;
+  }
+  input::placeholder , select,textarea::placeholder{
+    color: #36353D;
+    margin: 0;
+
+  }
+  .button{
+    margin: 0 auto;
+  }
+}
+address{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: $maxWidthGeneral;
+  margin: 80px auto 0;
+  color: #1D1C21;
+  background-color: #C4C4C4;
+  h4{
+    color: #1D1C21;
+    margin: 10px 0 2px;
+  }
+  p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+  }
+  .adress-info{
+    max-width: 244px;
+    margin: 30px 96px;
+    img{
+      margin: 15px 22px 0 0;
+      width: 18px;
+
+    }
+  }
+  .map{
+    float:right;
+  }
+}
+//
+footer{
+  margin-top: 80px;
+}
+.footer-nav{
+  border-top:1px solid #89898B;
+  padding: 17px 2px;
+}
+.footer-info{
+  max-width: $maxWidthGeneral;
+  margin: 0 auto 7px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  p{
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #89898B;
+  }
+  img{
+    width: 14px;
+    margin-left: 30px;
+  }
+  .footer-info-mobile{
+    display: none;
+  }
+}
+//MEDIA
+@media(max-width: 1440px) {
+  header{
+  height: 670px;
+  }
+  .main-logo {
+    width: 445px;
+  }
+}
+@media(max-width: 1200px) {
+  .header-nav {
+    display: none;
+  }
+  #burger {
+    display: block;
+  }
+  .artists-info {
+    width: 600px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  h2 {
+    text-align: center;
+  }
+  .kayla-work {
+    justify-content: space-around;
+
+    img {
+      width: 200px;
+    }
+  }
+  .title-and-button {
+    padding: 0 30px 0;
+  }
+  .about-us .about-us-content {
+    padding: 60px 0 60px 20px;
+
+    img {
+      object-fit: cover;
+      object-position: 67% 0;
+      width: 525px;
+      height: 452px;
+      top: -364px;
+    }
+  }
+  address {
+    flex-direction: column-reverse;
+
+    .map {
+      width: 100%;
+    }
+
+    .adress-info {
+      margin: 30px auto;
+    }
+  }
+  footer {
+    margin-top: 20px;
+  }
+  .footer-nav{
+    border: none;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    padding: 17px 2px 0;
+    a{
+      margin: 0 0 15px;
+    }
+  }
+  .footer-info{
+    display: block;
+    .footer-address{
+      display: none;
+    }
+    .footer-info-mobile{
+      display: block;
+    }
+    img{
+      margin: 0 15px;
+    }
+  }
+
+}
+  @media (max-width: 1000px) {
+    .about-us .about-us-content {
+      padding: 30px 0 30px 20px;
+
+      p {
+        max-width: 330px;
+      }
+
+      img {
+        object-fit: cover;
+        object-position: 0% 0;
+        width: 400px;
+        height: 440px;
+        top: -389px;
+      }
+    }
+  }
+  @media(max-width: 800px) {
+    .awards-content {
+      max-width: 320px;
+      justify-content: center;
+      padding-top: 35px;
+    }
+    .award-card {
+      margin-bottom: 25px;
+    }
+    .title-and-button {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      text-align: center;
+    }
+    .kayla-work {
+      top: unset;
+      width: 100%;
+      margin: 10px auto;
+      flex-wrap: wrap;
+
+      img {
+        width: 150px;
+        margin: 15px;
+      }
+    }
+    .about-us .about-us-content {
+      p {
+        max-width: 45%;
+      }
+
+      img {
+        object-fit: cover;
+        object-position: 0% 0;
+        width: 50%;
+        height: 440px;
+        top: -370px;
+      }
+    }
+    .instagram-work {
+      text-align: center;
+
+      h2 {
+        width: 90%;
+        font-size: 44px;
+      }
+    }
+    .grid {
+      margin: 0 30px;
+    }
+  }
+  @media(max-width: 769px) {
+    .about-us .about-us-content img {
+      top: -390px;
+    }
+  }
+  @media(max-width: 600px) {
+    .main-logo {
+      margin: 30px auto 10px;
+      width: 300px;
+      display: block;
+    }
+    .burger-menu {
+      padding: 50px 0;
+    }
+    .header-icons {
+      margin-right: 10px;
+    }
+    .artists-info {
+      width: 261px;
+    }
+    h2 {
+      font-size: 36px;
+      line-height: 61px;
+    }
+    img.mfp-img {
+      width: 250px !important;
+    }
+    .about-us {
+      margin: 0;
+
+      .about-us-content {
+        padding: 40px 0 0 20px;
+
+        p {
+          max-width: 90%;
+        }
+
+        img {
+          display: none;
+        }
+      }
+    }
+    .about-us-img-mobile {
+      display: block;
+      width: 100%;
+      margin-top: 30px;
+    }
+    .grid {
+      margin: 0 auto;
+      max-width: 400px;
+
+      .grid-item-big, .grid-item-small, .grid-item {
+        width: 100px;
+        height: 100px;
+        border: 5px solid #1D1C21;
+
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+    .instagram-work {
+      h2 {
+        white-space: normal;
+      }
+    }
+    form {
+      max-width: 90%;
+    }
+    #button3, #button2 {
+      display: none;
+    }
+
+  }
+  @media (max-width: 400px) {
+    .about-us .about-us-content p {
+      max-width: 85%;
+    }
+    .grid {
+      max-width: 330px;
+    }
+  }
+  @media (max-width: 350px) {
+    .about-us .about-us-content p {
+      max-width: 90%;
+    }
+    .grid {
+      max-width: 210px;
+    }
+  }
