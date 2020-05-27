@@ -256,6 +256,9 @@ h4 {
 .awards h3, .awards p {
   color: #1D1C21;
 }
+.awards h3 {
+  white-space: nowrap;
+}
 
 .awards-content {
   max-width: 1131px;

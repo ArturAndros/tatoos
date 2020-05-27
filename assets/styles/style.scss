@@ -233,6 +233,9 @@ h4{
   h3,p{
     color: #1D1C21;
   }
+  h3{
+    white-space: nowrap;
+  }
 }
 .awards-content{
   max-width:$maxWidthGeneral;
