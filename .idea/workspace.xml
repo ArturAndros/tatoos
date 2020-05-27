@@ -17,6 +17,8 @@
       <change afterPath="$PROJECT_DIR$/../tetris/styles.css" afterDir="false" />
       <change beforePath="D:/.idea/vcs.xml" beforeDir="false" afterPath="D:/.idea/vcs.xml" afterDir="false" />
       <change beforePath="D:/.idea/workspace.xml" beforeDir="false" afterPath="D:/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,9 +32,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="770">
               <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#nav#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -141,6 +143,7 @@
         <option value="$PROJECT_DIR$/assets/js/scripts.js" />
         <option value="$PROJECT_DIR$/assets/styles/style.scss" />
         <option value="$PROJECT_DIR$/assets/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -168,12 +171,6 @@
               <item name="test_tatoos" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="test_tatoos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_tatoos" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -186,6 +183,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fly_dog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\frontend\WebstormProjects\test_tatoos" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,12 +212,12 @@
       <option name="presentableId" value="Default" />
       <updated>1589648134915</updated>
       <workItem from="1589648136561" duration="21420000" />
-      <workItem from="1589798159684" duration="70249000" />
+      <workItem from="1589798159684" duration="72101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91669000" />
+    <option name="totallyTimeSpent" value="93521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,7 +230,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20490716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -345,9 +346,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="770">
           <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#nav#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
