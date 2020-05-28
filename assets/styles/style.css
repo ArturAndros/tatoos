@@ -32,7 +32,6 @@ header .header-text {
 }
 
 nav {
-  height: min-content;
   display: flex;
   justify-content: space-between;
   margin: 0 auto 10px;
@@ -209,7 +208,6 @@ h4 {
 
 .artists-info {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 

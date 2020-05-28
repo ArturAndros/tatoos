@@ -30,7 +30,6 @@ header {
   }
 }
 nav {
-  height: min-content;
   display: flex;
   justify-content: space-between;
   margin: 0 auto 10px;
@@ -89,8 +88,6 @@ nav a:hover{
   height: 30px;
   display: none;
   position: absolute;
-  //right: 15px;
-  //top: 23px;
   right: 50px;
   top: 40px;
   -webkit-transform: rotate(0deg);
@@ -190,7 +187,6 @@ h4{
 //Artists
 .artists-info{
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 .artist-card{
@@ -408,7 +404,6 @@ form {
   input::placeholder , select,textarea::placeholder{
     color: #36353D;
     margin: 0;
-
   }
   .button{
     margin: 0 auto;
@@ -440,7 +435,6 @@ address{
     img{
       margin: 15px 22px 0 0;
       width: 18px;
-
     }
   }
   .map{
@@ -528,7 +522,6 @@ footer{
     .map {
       width: 100%;
     }
-
     .adress-info {
       margin: 30px auto;
     }
@@ -558,7 +551,6 @@ footer{
       margin: 0 15px;
     }
   }
-
 }
   @media (max-width: 1000px) {
     .about-us .about-us-content {
@@ -660,11 +652,9 @@ footer{
 
       .about-us-content {
         padding: 40px 0 0 20px;
-
         p {
           max-width: 90%;
         }
-
         img {
           display: none;
         }
@@ -678,12 +668,10 @@ footer{
     .grid {
       margin: 0 auto;
       max-width: 400px;
-
       .grid-item-big, .grid-item-small, .grid-item {
         width: 100px;
         height: 100px;
         border: 5px solid #1D1C21;
-
         img {
           width: 100px;
           height: 100px;
