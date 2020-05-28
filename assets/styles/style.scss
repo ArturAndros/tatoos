@@ -12,6 +12,9 @@ a{
 button{
   outline: none;
 }
+textarea{
+  resize: none;
+}
 header {
   position: relative;
   background-image: url("../images/header-bg.png");

@@ -17,10 +17,6 @@
       <change afterPath="$PROJECT_DIR$/../tetris/styles.css" afterDir="false" />
       <change beforePath="D:/.idea/vcs.xml" beforeDir="false" afterPath="D:/.idea/vcs.xml" afterDir="false" />
       <change beforePath="D:/.idea/workspace.xml" beforeDir="false" afterPath="D:/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -185,12 +181,12 @@
       <updated>1589648134915</updated>
       <workItem from="1589648136561" duration="21420000" />
       <workItem from="1589798159684" duration="73315000" />
-      <workItem from="1590675028586" duration="800000" />
+      <workItem from="1590675028586" duration="932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95535000" />
+    <option name="totallyTimeSpent" value="95667000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
